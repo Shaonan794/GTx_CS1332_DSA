@@ -1,0 +1,52 @@
+# ─── IDE / Editor ─────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# ─── Java / IntelliJ ──────────────────────────
+*.class
+target/
+build/
+out/
+bin/
+*.jar
+*.war
+hs_err_pid*
+
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Jupyter ──────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Obsidian（如果整个 vault 在仓库里，按需保留）
+.obsidian/workspace*
+.obsidian/cache
+
+# ─── 学术诚信硬性排除 ─────────────────────────
+# 完整作业代码在课程结束前绝对不进仓库
+assignments/*/solution.*
+assignments/*/answer.*
+assignments/**/solution/
+*_FINAL_ANSWER.*
+**/private/
+
+# ─── 个人 / 临时文件 ──────────────────────────
+TODO_personal.md
+scratch/
+*.log
+*.tmp
